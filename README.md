@@ -1,3 +1,3 @@
-# TripMate-AI using Next-js and typescript
+# TripMate-AI
 
-Ai that helps to plan your trip 
+Ai that helps to plan your trip using next.js and typescript 
