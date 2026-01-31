@@ -30,3 +30,17 @@ Uses cutting edge tools like:
 | Styling | CSS / Tailwind (or your choice) |
 | AI Logic | (Specify model or API) |
 | Deployment | Vercel / Netlify / (your choice) |
+
+## 📁 Folder Structure
+
+TripMate-AI/
+
+├── client/                 # Frontend code (Next.js)
+
+├── .vscode/                # VSCode settings
+
+├── README.md
+
+├── package.json
+
+└── tsconfig.json
