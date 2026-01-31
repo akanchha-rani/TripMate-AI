@@ -21,8 +21,6 @@ Uses cutting edge tools like:
 - React
 - CSS/SCSS
 
-*(Add any APIs you use here, e.g., Map, Travel API, OpenAI, etc.)*
-
 ## 🧩 Tech Stack
 
 | Category | Technology |
