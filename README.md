@@ -44,3 +44,25 @@ TripMate-AI/
 ├── package.json
 
 └── tsconfig.json
+
+## 🧪 Example Use Case
+
+1. User enters:
+
+ - Destination
+
+ - Travel duration
+
+ - Interests (food, adventure, culture, etc.)
+
+2. TripMate-AI sends a structured prompt to LLM
+
+3. AI generates:
+
+ - Day-wise itinerary
+
+ - Must-visit places
+
+ - Travel tips
+
+4. User views and refines the plan
