@@ -3,6 +3,7 @@
 TripMate-AI is an **AI-assisted travel planner** built with **Next.js** and **TypeScript**.  
 It helps users plan trips, explore destinations, and generate personalized travel suggestions using modern web tech and intelligence.
 
+
 ## 🚀 Features
 
 ✨ **AI-Powered Travel Suggestions**  
@@ -21,6 +22,7 @@ Uses cutting edge tools like:
 - React
 - CSS/SCSS
 
+
 ## 🧩 Tech Stack
 
 | Category | Technology |
@@ -30,6 +32,7 @@ Uses cutting edge tools like:
 | Styling | CSS / Tailwind (or your choice) |
 | AI Logic | (Specify model or API) |
 | Deployment | Vercel / Netlify / (your choice) |
+
 
 ## 📁 Folder Structure
 
@@ -44,6 +47,7 @@ TripMate-AI/
 ├── package.json
 
 └── tsconfig.json
+
 
 ## 🧪 Example Use Case
 
