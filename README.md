@@ -24,21 +24,27 @@ The platform combines Generative AI with full-stack web development to deliver a
 TripMate uses a Generative AI pipeline to generate travel plans.
 
 User Input (destination, days, preferences)
+      
         ↓
 
 Frontend (Next.js)
+        
         ↓
 
 Backend API (Node.js / Express)
+        
         ↓
 
 Prompt Engineering Layer
+        
         ↓
 
 OpenAI LLM
+   
         ↓
 
 AI Generated Travel Itinerary
+     
         ↓
 
 Frontend Rendering
