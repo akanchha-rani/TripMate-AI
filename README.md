@@ -36,43 +36,43 @@ Frontend Rendering
 
 ### Frontend
 
-Next.js
+- Next.js
 
-TypeScript
+- TypeScript
 
-React
+- React
 
-Tailwind CSS
+- Tailwind CSS
 
 ### Backend
 
-Node.js
+- Node.js
 
-Express.js
+- Express.js
 
-REST APIs
+- REST APIs
 
 ### Database
 
-MongoDB
+- MongoDB
 
 ### AI / Generative AI
 
-OpenAI API
+- OpenAI API
 
-Prompt Engineering
+- Prompt Engineering
 
-LLM-based itinerary generation
+- LLM-based itinerary generation
 
 ## How It Works
 
-User enters trip details such as destination and number of days.
+- User enters trip details such as destination and number of days.
 
-The backend processes the request and constructs a prompt for the LLM.
+- The backend processes the request and constructs a prompt for the LLM.
 
-OpenAI generates a personalized travel itinerary.
+- OpenAI generates a personalized travel itinerary.
 
-The generated plan is returned to the frontend and displayed to the user.
+- The generated plan is returned to the frontend and displayed to the user.
 
 ## Future Improvements
 
