@@ -86,25 +86,27 @@ Output Schema:
 export async function POST(req: NextRequest) {
   const { messages, isFinal } = await req.json();
   const user = await currentUser();
-  const decision = await aj.protect(req, { userId:user?.primaryEmailAddress?.emailAddress??'', requested: isFinal?5:0 });
+  const decision = await aj.protect(req, {
+    userId: user?.primaryEmailAddress?.emailAddress ?? "",
+    requested: isFinal ? 5 : 0,
+  });
   console.log(decision);
   //@ts-ignore
-  if(decision?.reason?.remaining==0){
+  if (decision?.reason?.remaining == 0) {
     return NextResponse.json({
-      resp:'No Free Requests Remaining. Please upgrade your plan.',
-      ui:'Limit',
-    })
+      resp: "No Free Requests Remaining. Please upgrade your plan.",
+      ui: "Limit",
+    });
   }
-
 
   try {
     const completion = await openai.chat.completions.create({
-      model: "mistralai/mistral-7b-instruct:free",
-      response_format:{type:'json_object'}, 
+      model: "openai/gpt-4o-mini",
+      response_format: { type: "json_object" },
       messages: [
         {
           role: "system",
-          content: isFinal?FINAL_PROMPT:PROMPT,
+          content: isFinal ? FINAL_PROMPT : PROMPT,
         },
         ...messages,
       ],

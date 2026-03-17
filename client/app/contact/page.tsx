@@ -15,7 +15,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-16">
+    <div className="max-w-4xl mx-auto px-6 py-16 d">
       <div className="text-center mb-12">
         <h1 className="text-3xl md:text-5xl font-bold">
           Contact <span className="text-primary">Us</span>
@@ -26,7 +26,7 @@ const ContactPage = () => {
       </div>
       <form
         onSubmit={handleSubmit}
-        className="bg-white dark:bg-gray-900 shadow-sm border border-gray-200 dark:border-gray-800 rounded-2xl p-8 space-y-6"
+        className=" dark:bg-gray-900 shadow-2xl border border-gray-200 dark:border-gray-800 rounded-2xl p-8 space-y-6"
       >
         <div>
           <label className="block text-sm font-medium mb-1">Name</label>

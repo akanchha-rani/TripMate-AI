@@ -11,6 +11,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { text } from "stream/consumers";
 
 const menuOptions = [
   { name: "Home", path: "/" },
@@ -42,11 +43,11 @@ function Header() {
           <Tooltip>
             <TooltipTrigger asChild>
               <Link href="/">
-                <Button>Travel Memory</Button>
+                <Button >Travel Memory</Button>
               </Link>
             </TooltipTrigger>
             <TooltipContent>
-              <p>Save all your trip memories here</p>
+              <p className="text-white">Save all your trip memories here</p>
             </TooltipContent>
           </Tooltip>
         </TooltipProvider>

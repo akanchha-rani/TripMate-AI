@@ -167,7 +167,7 @@ function ChatBox() {
   }, [isFinal]);
 
   return (
-    <div className="h-[85vh] flex flex-col border rounded-2xl shadow-lg p-5">
+    <div className="h-[85vh] flex flex-col border-2 rounded-2xl shadow-2xl p-5">
       {messages?.length == 0 && (
         <EmptyState
           onSelectOption={(v: string) => {

@@ -10,7 +10,7 @@ export function PopularCity() {
 
   return (
     <div className="w-full h-full py-20">
-      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-3xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
+      <h2 className="max-w-7xl flex items-center justify-center flex-col pl-4 mx-auto text-xl md:text-3xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
         Popular Destinations to Visit.
       </h2>
       <Carousel items={cards} />
